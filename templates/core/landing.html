@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}DocxDeadline — Never miss what matters{% endblock %}
+{% block public_content %}
+<main class="landing-page">
+  <nav class="public-nav"><a class="wordmark" href="{% url 'landing' %}"><span class="wordmark-mark">D</span><span>DocxDeadline</span></a><div><a href="{% url 'login' %}" class="text-link">Sign in</a><a href="{% url 'register' %}" class="button button-small">Create workspace</a></div></nav>
+  <section class="hero"><p class="eyebrow">A private archive for the life ahead</p><h1>Never miss<br><em>what matters.</em></h1><p class="hero-copy">Keep your documents, applications and important dates in one considered workspace. Built for people with things worth remembering.</p><div class="hero-actions"><a class="button" href="{% url 'register' %}">Begin your archive <span>↗</span></a><a class="text-link" href="{% url 'login' %}">I already have an account</a></div></section>
+  <section class="landing-note"><span>01 — The premise</span><p>A calmer way to stay prepared.<br>Documents in order. Deadlines in sight.</p><div class="landing-benefits"><span>Document vault</span><span>Deadline clarity</span><span>Application readiness</span></div></section>
+</main>
+{% endblock %}

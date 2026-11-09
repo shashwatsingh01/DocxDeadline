@@ -1,0 +1,50 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}DocxDeadline{% endblock %}</title>
+  <meta name="description" content="A calm workspace for documents, applications and deadlines.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/site.css' %}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% if user.is_authenticated %}
+  <button class="mobile-menu" type="button" aria-label="Open navigation" data-menu-toggle><span></span><span></span><span></span></button>
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar>
+      <a class="wordmark" href="{% url 'dashboard' %}"><span class="wordmark-mark">D</span><span>DocxDeadline</span></a>
+      <p class="sidebar-label">Workspace</p>
+      <nav class="nav-list" aria-label="Primary navigation">
+        <a href="{% url 'dashboard' %}" class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}is-active{% endif %}"><span class="nav-icon">⌂</span>Overview</a>
+        <a href="{% url 'document_list' %}" class="nav-link {% if 'document' in request.resolver_match.url_name %}is-active{% endif %}"><span class="nav-icon">□</span>My Documents</a>
+        <a href="{% url 'deadline_list' %}" class="nav-link {% if 'deadline' in request.resolver_match.url_name %}is-active{% endif %}"><span class="nav-icon">◷</span>Deadlines</a>
+        <a href="{% url 'application_list' %}" class="nav-link {% if 'application' in request.resolver_match.url_name or 'requirement' in request.resolver_match.url_name %}is-active{% endif %}"><span class="nav-icon">▤</span>Applications</a>
+        <a href="{% url 'calendar' %}" class="nav-link {% if request.resolver_match.url_name == 'calendar' %}is-active{% endif %}"><span class="nav-icon">▦</span>Calendar</a>
+        <a href="{% url 'notification_list' %}" class="nav-link {% if 'notification' in request.resolver_match.url_name %}is-active{% endif %}"><span class="nav-icon">○</span>Notifications</a>
+      </nav>
+      <p class="sidebar-label sidebar-label-lower">Personal</p>
+      <nav class="nav-list">
+        <a href="{% url 'activity' %}" class="nav-link {% if request.resolver_match.url_name == 'activity' %}is-active{% endif %}"><span class="nav-icon">≡</span>Activity</a>
+        <a href="{% url 'settings' %}" class="nav-link {% if request.resolver_match.url_name == 'settings' %}is-active{% endif %}"><span class="nav-icon">⚙</span>Settings</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="user-chip"><span class="avatar">{{ user.username|first|upper }}</span><span><strong>{{ user.get_full_name|default:user.username }}</strong><small>{{ user.email|default:"Personal workspace" }}</small></span></div>
+        <form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="logout-button" type="submit">Sign out <span>↗</span></button></form>
+      </div>
+    </aside>
+    <main class="main-content">
+      {% if messages %}<div class="toast-stack">{% for message in messages %}<div class="toast toast-{{ message.tags }}">{{ message }}</div>{% endfor %}</div>{% endif %}
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+{% else %}
+  {% if messages %}<div class="toast-stack public-toast">{% for message in messages %}<div class="toast toast-{{ message.tags }}">{{ message }}</div>{% endfor %}</div>{% endif %}
+  {% block public_content %}{% endblock %}
+{% endif %}
+<script src="{% static 'js/site.js' %}"></script>
+</body>
+</html>
