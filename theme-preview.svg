@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f5f2eb"/>
+  <rect width="252" height="900" fill="#eeebe3"/>
+  <line x1="252" y1="0" x2="252" y2="900" stroke="#dedbd1"/>
+  <rect x="28" y="30" width="30" height="30" fill="none" stroke="#466b53"/>
+  <text x="38" y="52" font-family="Georgia,serif" font-size="19" fill="#466b53">D</text>
+  <text x="69" y="50" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#252b26">DocxDeadline</text>
+  <text x="32" y="114" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#92988f">WORKSPACE</text>
+  <g font-family="Arial,sans-serif" font-size="13" fill="#69716a">
+    <rect x="17" y="133" width="218" height="41" rx="3" fill="#fffdf8"/><rect x="17" y="133" width="3" height="41" fill="#466b53"/>
+    <text x="39" y="159" fill="#252b26">⌂</text><text x="67" y="159" fill="#252b26">Overview</text>
+    <text x="39" y="202">□</text><text x="67" y="202">My Documents</text>
+    <text x="39" y="245">◷</text><text x="67" y="245">Deadlines</text>
+    <text x="39" y="288">▤</text><text x="67" y="288">Applications</text>
+    <text x="39" y="331">▦</text><text x="67" y="331">Calendar</text>
+    <text x="39" y="374">○</text><text x="67" y="374">Notifications</text>
+  </g>
+  <text x="32" y="438" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#92988f">PERSONAL</text>
+  <text x="39" y="479" font-family="Arial,sans-serif" font-size="13" fill="#69716a">≡</text><text x="67" y="479" font-family="Arial,sans-serif" font-size="13" fill="#69716a">Activity</text>
+  <text x="39" y="522" font-family="Arial,sans-serif" font-size="13" fill="#69716a">⚙</text><text x="67" y="522" font-family="Arial,sans-serif" font-size="13" fill="#69716a">Settings</text>
+  <line x1="22" y1="817" x2="230" y2="817" stroke="#dedbd1"/>
+  <circle cx="43" cy="850" r="15" fill="#466b53"/><text x="38" y="855" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#fffdf8">S</text>
+  <text x="67" y="848" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#252b26">Your workspace</text><text x="67" y="866" font-family="Arial,sans-serif" font-size="10" fill="#92988f">Personal workspace</text>
+  <g font-family="Arial,sans-serif">
+    <text x="305" y="83" font-family="Georgia,serif" font-size="56" fill="#252b26">A clear view.</text>
+    <text x="305" y="111" font-size="14" fill="#69716a">Your documents, applications and important dates, all in one place.</text>
+    <rect x="1192" y="55" width="174" height="45" rx="2" fill="#466b53"/><text x="1211" y="83" font-size="13" font-weight="700" fill="#fffdf8">＋  Add a document</text>
+    <g>
+      <rect x="305" y="152" width="166" height="126" fill="#fffdf8" stroke="#dedbd1"/><rect x="485" y="152" width="166" height="126" fill="#fffdf8" stroke="#dedbd1"/><rect x="665" y="152" width="166" height="126" fill="#fffdf8" stroke="#dedbd1"/><rect x="845" y="152" width="166" height="126" fill="#fffdf8" stroke="#dedbd1"/><rect x="1025" y="152" width="166" height="126" fill="#fffdf8" stroke="#dedbd1"/><rect x="1205" y="152" width="161" height="126" fill="#fffdf8" stroke="#466b53"/>
+      <text x="323" y="180" font-size="11" fill="#69716a">Documents</text><text x="323" y="235" font-size="34" fill="#252b26">12</text><text x="323" y="260" font-size="10" fill="#92988f">Safely in your archive</text>
+      <text x="503" y="180" font-size="11" fill="#69716a">Applications</text><text x="503" y="235" font-size="34" fill="#252b26">4</text><text x="503" y="260" font-size="10" fill="#92988f">Currently in progress</text>
+      <text x="683" y="180" font-size="11" fill="#69716a">Upcoming deadlines</text><text x="683" y="235" font-size="34" fill="#252b26">3</text><text x="683" y="260" font-size="10" fill="#92988f">In the next 30 days</text>
+      <text x="863" y="180" font-size="11" fill="#69716a">Overdue</text><text x="863" y="235" font-size="34" fill="#b65d4c">0</text><text x="863" y="260" font-size="10" fill="#92988f">You’re all caught up</text>
+      <text x="1043" y="180" font-size="11" fill="#69716a">Completed</text><text x="1043" y="235" font-size="34" fill="#252b26">8</text><text x="1043" y="260" font-size="10" fill="#92988f">This year</text>
+      <text x="1223" y="180" font-size="11" fill="#69716a">Readiness</text><text x="1223" y="235" font-size="34" fill="#466b53">86%</text><text x="1223" y="260" font-size="10" fill="#92988f">Your next step is clear</text>
+    </g>
+    <rect x="305" y="304" width="1061" height="66" fill="none" stroke="#dedbd1"/><line x1="658" y1="304" x2="658" y2="370" stroke="#dedbd1"/><line x1="1012" y1="304" x2="1012" y2="370" stroke="#dedbd1"/>
+    <text x="328" y="332" font-size="10" letter-spacing="1" fill="#466b53">QUICK ACTION</text><text x="328" y="353" font-size="13" fill="#252b26">＋  Upload a document</text>
+    <text x="681" y="332" font-size="10" letter-spacing="1" fill="#466b53">QUICK ACTION</text><text x="681" y="353" font-size="13" fill="#252b26">＋  Add an application</text>
+    <text x="1035" y="332" font-size="10" letter-spacing="1" fill="#466b53">QUICK ACTION</text><text x="1035" y="353" font-size="13" fill="#252b26">＋  Set a deadline</text>
+    <rect x="305" y="396" width="588" height="274" fill="#fffdf8" stroke="#dedbd1"/><rect x="911" y="396" width="455" height="274" fill="#fffdf8" stroke="#dedbd1"/>
+    <text x="327" y="431" font-size="17" fill="#252b26">Upcoming deadlines</text><text x="797" y="430" font-size="11" fill="#466b53">View all →</text>
+    <g font-size="12"><line x1="327" y1="449" x2="871" y2="449" stroke="#dedbd1"/><text x="329" y="481" fill="#466b53">NOV 14</text><text x="397" y="478" font-weight="700" fill="#252b26">Passport renewal</text><text x="397" y="496" fill="#69716a">Personal · Documents</text><text x="810" y="485" fill="#466b53">In 4 days</text>
+    <line x1="327" y1="514" x2="871" y2="514" stroke="#dedbd1"/><text x="329" y="546" fill="#466b53">NOV 21</text><text x="397" y="543" font-weight="700" fill="#252b26">University application</text><text x="397" y="561" fill="#69716a">Applications · Priority</text><text x="810" y="550" fill="#466b53">In 11 days</text>
+    <line x1="327" y1="579" x2="871" y2="579" stroke="#dedbd1"/><text x="329" y="611" fill="#466b53">DEC 02</text><text x="397" y="608" font-weight="700" fill="#252b26">Scholarship materials</text><text x="397" y="626" fill="#69716a">Education · Documents</text><text x="810" y="615" fill="#466b53">In 22 days</text></g>
+    <text x="933" y="431" font-size="17" fill="#252b26">Recent documents</text><text x="1270" y="430" font-size="11" fill="#466b53">View all →</text>
+    <g font-size="12"><line x1="933" y1="449" x2="1344" y2="449" stroke="#dedbd1"/><rect x="934" y="465" width="34" height="28" fill="none" stroke="#466b53"/><text x="940" y="483" font-size="8" fill="#466b53">PDF</text><text x="980" y="476" font-weight="700" fill="#252b26">Passport scan</text><text x="980" y="494" fill="#69716a">Updated yesterday</text>
+    <line x1="933" y1="514" x2="1344" y2="514" stroke="#dedbd1"/><rect x="934" y="530" width="34" height="28" fill="none" stroke="#466b53"/><text x="940" y="548" font-size="8" fill="#466b53">PDF</text><text x="980" y="541" font-weight="700" fill="#252b26">Academic transcript</text><text x="980" y="559" fill="#69716a">Updated 3 days ago</text>
+    <line x1="933" y1="579" x2="1344" y2="579" stroke="#dedbd1"/><rect x="934" y="595" width="34" height="28" fill="none" stroke="#466b53"/><text x="940" y="613" font-size="8" fill="#466b53">DOC</text><text x="980" y="606" font-weight="700" fill="#252b26">Statement of purpose</text><text x="980" y="624" fill="#69716a">Updated Oct 30</text></g>
+    <rect x="305" y="694" width="588" height="165" fill="#fffdf8" stroke="#dedbd1"/><rect x="911" y="694" width="455" height="165" fill="#fffdf8" stroke="#dedbd1"/>
+    <text x="327" y="729" font-size="17" fill="#252b26">Recent activity</text><text x="933" y="729" font-size="17" fill="#252b26">Application readiness</text>
+    <circle cx="334" cy="765" r="4" fill="#466b53"/><text x="350" y="769" font-size="12" fill="#252b26">Passport scan added to your archive</text><text x="350" y="789" font-size="10" fill="#92988f">Yesterday · Documents</text>
+    <circle cx="334" cy="821" r="4" fill="#466b53"/><text x="350" y="825" font-size="12" fill="#252b26">Deadline updated for university application</text><text x="350" y="845" font-size="10" fill="#92988f">Nov 6 · Applications</text>
+    <text x="934" y="766" font-size="12" fill="#69716a">Your next application is nearly ready.</text><rect x="934" y="791" width="400" height="7" fill="#f5f2eb"/><rect x="934" y="791" width="344" height="7" fill="#466b53"/><text x="934" y="825" font-size="12" fill="#466b53">86% ready</text><text x="1287" y="825" font-size="11" fill="#69716a">Review checklist →</text>
+  </g>
+</svg>
